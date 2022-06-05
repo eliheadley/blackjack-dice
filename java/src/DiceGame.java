@@ -1,5 +1,13 @@
 import java.util.Scanner;
 import java.util.Random;
+/**
+ * This class runs a ruditmentary black jack game using dice printed in the shell.
+ * Only the palyer's roll and score is displayed to the shell.
+ * The first methid takes in two integer parameters to determine the how much the player rolled in a given turn.
+ * The second method takes in two integer parameters and returns the how much the computer rolled.
+ * The main has two nested loops that run an individual match and then continues prompting the user to play matches until
+ * the user inputs otherwise.
+ **/
 public class DiceGame {
     public static int playerDice(int ranNum, int rollNum){
         switch(ranNum){
